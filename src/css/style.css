@@ -1,0 +1,144 @@
+@font-face {
+    font-family: myTitle;
+    src: url(../material/Oswald-Stencil.ttf);
+}
+
+@font-face {
+    font-family: myHeading;
+    src: url(../material/Oswald-DemiBold.ttf);
+}
+
+@font-face {
+    font-family: myParagraph;
+    src: url(../material/Oswald-Regular.ttf)
+}
+
+body {
+    border: 1px solid #6d82eb;
+    border-radius: 5px;
+}
+
+header {
+    padding: 3em;
+    background-color: #d8dedf;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.content {
+    display: grid;
+    flex-direction: row;
+    justify-content: center;
+    padding: 2em;
+}
+
+#logo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 1em;
+}
+
+.main .welcome {
+    font-family: myTitle;
+    font-size: 2rem;
+    color: #6D82EB;
+    padding-top: 1em;
+    text-align: center;
+}
+
+.tasks {
+    display: flex;
+    justify-content: center;
+}
+
+.tasks > form {
+    font-family: myParagraph;
+    font-size: 1.1rem;
+    justify-self: center;
+    margin-bottom: 1em;
+    line-height: 2em;
+}
+
+.add {
+  background-color: transparent;
+  border: 2px solid #6D82EB;
+  box-sizing: border-box;
+  font-family: myHeading;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  padding: 16px 23px;
+  position: relative;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.add:hover {
+  background-color: #6D82EB;
+  cursor: pointer;
+  color: antiquewhite;
+}
+
+.tasks ul {
+    list-style: none;
+}
+
+.tasks ul li a {
+    text-decoration: none;
+    font-family: myParagraph;
+    color: #6D82EB;
+    padding-right: 2em;
+    width: 100%; 
+    text-align: center; 
+    border-bottom: 1px solid #000; 
+    line-height: 0.1em;
+    margin: 10px 0 20px; 
+    line-height: 3em;
+}
+
+h2 {
+    font-family: myTitle;
+    font-size: 1.5rem;
+    justify-self: center;
+    align-self: center;
+    text-align: center;
+}
+
+h3 {
+    font-family: myHeading;
+    font-size: 1rem;
+    text-decoration: underline solid #6D82EB;
+    text-align: center;
+}
+
+ #title_msg {
+    font-family: myParagraph;
+    align-self: center;
+    font-size: 1.5rem;
+    border: 2px solid red;
+    padding: 1em;
+ }
+
+ p {
+    font-family: myParagraph;
+    text-align: right;
+    font-size: x-small;
+    color: #000;
+ }
+
+#delete {
+    color: red;
+ }
+
+footer {
+    padding: 2em;
+    background-color: #d8dedf;
+}
+
