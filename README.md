@@ -17,4 +17,4 @@ Nu behöver du bygga upp databasen, och det görs med datan i filen *db.sql*. G�
 Nu har tabellen Todo skapats! 
 
 ### Använda Todo
-Du kan nu börja använda Todo, genom att besöka *localhost/index.php*. Lycka till!
+Du kan nu börja använda Todo, genom att besöka *localhost/index.php*, eller bara *localhost*. Lycka till!
